@@ -3,5 +3,10 @@ name = "rustBasics"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "guess_the_number"
+path = "week1/guessTheNumber.rs"
+
 [dependencies]
 rand = "0.5.5"
+colored = "2.0.0"
