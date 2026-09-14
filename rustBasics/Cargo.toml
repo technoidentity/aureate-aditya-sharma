@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [[bin]]
+name = "structs_in_rust"
+path = "week1/structsInRust.rs"
+
+[[bin]]
 name = "basics_of_rust"
 path = "week1/basicsOfRust.rs"
 
