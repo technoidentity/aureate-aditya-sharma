@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [[bin]]
+name = "enums_and_pattern_matching"
+path = "week1/enumsAndPatternMatching.rs"
+
+[[bin]]
 name = "structs_in_rust"
 path = "week1/structsInRust.rs"
 
