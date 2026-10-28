@@ -1,0 +1,18 @@
+# Rust build artifacts (including nested projects)
+target/
+**/*.rs.bk
+
+# Captured minigrep output
+/minigrep/output.txt
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editor and operating system temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
