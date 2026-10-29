@@ -1,0 +1,22 @@
+# Rust build output (keep Cargo.lock for reproducible application builds)
+/target/
+
+# Backup files created by rustfmt
+**/*.rs.bk
+
+# Local environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editor caches and temporary files
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

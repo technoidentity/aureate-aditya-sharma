@@ -1,0 +1,15 @@
+# Rust build output
+**/target/
+
+# Compiled binaries produced by standalone rustc examples
+rustBasics/week1/firstProgram
+
+# Rust tooling and local configuration
+.rustc_info.json
+rust-project.json
+
+# Editor and operating-system files
+.zed/
+.vscode/
+.idea/
+.DS_Store
