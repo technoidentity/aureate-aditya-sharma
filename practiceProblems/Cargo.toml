@@ -1,0 +1,37 @@
+[package]
+name = "practiceProblems"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+time = { version = "0.3", features = ["macros"] }
+rand = "0.5.0"
+colored = "2.0.0"
+
+[[bin]]
+name = "add_seconds"
+path = "src/addSeconds.rs"
+
+[[bin]]
+name = "space_age"
+path = "src/spaceAge.rs"
+
+[[bin]]
+name = "all_your_base"
+path = "src/allYourBase.rs"
+
+[[bin]]
+name = "isograms"
+path = "src/isograms.rs"
+
+[[bin]]
+name = "rps"
+path = "src/rock_paper_scissors.rs"
+
+[[bin]]
+name = "vectors"
+path = "src/vectors.rs"
+
+[[bin]]
+name = "num_wordle"
+path = "src/num_wordle.rs"
